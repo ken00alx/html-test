@@ -75,17 +75,18 @@ color: rgb(8, 8, 8);}
   margin-left: 5px;
 }
 .input-text{
-  float: left;
+  float: none;
   width: 420px;
   height: 35px;
   padding-right: 6px;
   color: #000;
   font-size: medium;
   font-weight: bold;
-  margin-block-end: auto;
+  display: inline-block ;
 }
 .searchnav{
-  width: 600px;
+ /*  width: 800px; */
+ padding-left: none;
   height: 90%;
   border: none;
   border-radius:0px;
@@ -94,7 +95,8 @@ color: rgb(8, 8, 8);}
   margin-right:25px;
 }
   /* Style the links inside the navigation bar */
-  /* .search-button{
+  /* .
+  search-button{
     float: right;
     display: block;
     text-align: center;
@@ -103,12 +105,11 @@ color: rgb(8, 8, 8);}
     font-size: 17px;
   } */
   .search-button:hover{
-    background-color: chocolate;
+    background-color: rgb(17, 99, 124);
     color: antiquewhite;
     margin-right: 25px;
     object-position: center;
-    border-style: solid;
-    border-radius: 5;
+    border-left: 58px;
   }
   
  .img{

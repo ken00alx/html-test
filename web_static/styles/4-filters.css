@@ -8,28 +8,25 @@
   
   .search-button {
     font-size: 18px;
-    background-color: #FF5A5F;
+    background-color: #0c0404;
     color: #FFFFFF;
-    height: 48px;
+    height: 40px;
     width: 15%;
-    display: flex;
+    border-radius: 5px;
+    display:inline-flex;
     padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    justify-content: center;
-    vertical-align: middle;
     cursor: pointer;
+    
   }
   
-  .search-button:hover {
+  /* .search-button:hover {
     background-color: chocolate;
     opacity: 0.9;
-  }
+  } */
   .search-nav{
     padding:52px;
-    color: #555f;
-    display: flex;
-    padding: 2px;
+    display: inline-flex;
+    padding: 12px;
     border: 2px;
     border-radius: 5px;
   }
@@ -48,5 +45,9 @@
   font-size: larger;
 }
 .shots-tube{
-  display: inline-block ;
+  display: inline-block;
+  width: 300px;
+  font-size: 14px;
+  text-underline-position: auto;
+
 }
