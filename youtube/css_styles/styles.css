@@ -1,9 +1,6 @@
-header{
-  
+header{ 
     color: #000;
-  
- 
-  font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
   
@@ -15,29 +12,54 @@ color: rgb(8, 8, 8);}
     max-width: 1000px;
     margin: 30px auto;
   }
-   p{
-      font-family: Arial, Helvetica, sans-serif;
+  .man-u{
+    width: 32px;
+    height: 30px;
+    align-content: center;
+  }
+    
+ .img{
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 0px ;
+  display: block;
+ }
+   /* p{
+      font-family: Arial;
+      font: size 14px; ;
       margin-top: 0px;
       margin-bottom: 0px;
+      
+    } */
+
+    .img-preview{
+      width: 300px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 15px;
     }
 
-    .video-title{
+    .u-video{
+      color: black;
       font-weight: bold;
-      font-size: 18px;
-      width: 400px;
-      line-height: 23px;
+      font-size: 14px;
+      width: 300px;
+            margin-top: 0px;
       margin-bottom: 0px;
 
     }
 
-    .video-stats{
-      font-size: 14px;
-      color: rgb(98, 98, 98);
+    .u-text{
+      font-weight: bold;
+      font-size: 16px;
+      color: rgb(8, 7, 7);
       margin-top: 0px;
       margin-bottom: 12px;
+      line-height: 33px;
     }
 
-    .video-author{
+    .u-view{
       font-size: 14px;
       color:rgb(10, 8, 12), 15, 29;
       margin-top: 0px;
@@ -78,7 +100,7 @@ color: rgb(8, 8, 8);}
   float: none;
   width: 420px;
   height: 35px;
-  padding-right: 6px;
+  padding-right: 10px 6px;
   color: #000;
   font-size: medium;
   font-weight: bold;
@@ -104,17 +126,23 @@ color: rgb(8, 8, 8);}
     text-decoration: none;
     font-size: 17px;
   } */
-  .search-button:hover{
-    background-color: rgb(17, 99, 124);
-    color: antiquewhite;
-    margin-right: 25px;
-    object-position: center;
-    border-left: 58px;
+  .search-bar{
+    display: block;
   }
-  
- .img{
-  width: 300px;
-  height: 200px;
-  object-fit: contain;
-  border-radius: 300px ;
- }
+.box{
+  display: block;
+  border-radius: 3;
+}
+.mail{
+  display: block;
+  display: inline-block;
+  border-radius: 3;
+  }
+
+ /*  .surv{
+    width: 300px;
+  } */
+
+  .div-sample{
+    display: inline-block;
+  }
