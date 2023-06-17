@@ -1,28 +1,109 @@
+.u-body {
+  background-color: rgb(217, 224, 223);
+}
+
+
 .search-bar{
   
   margin-left: 1px;
-  display: inline-block;
+  display: block;
   margin-bottom: 7px;
 }
 .img{
   width: 300px;
+  display: inline-block;
+  vertical-align: bottom;
+  }
+.img-face{
+  width: 300px;
+  height: 180px;
+  display: inline-block;
+  vertical-align: bottom;
+  }
+  
+.channel-pic {
+  width: 50px;
+  display:inline-block;
+  vertical-align: top;
+  }
+.chan-pic {
+  width: 50px;
+  display:inline-block;
+  vertical-align: top;
   }
 
+.pro-info {
+  width: 200px;
+  display: inline-block;
+}
+.pro-inf {
+  width: 200px;
+  display: inline-block;
+}
+.ball {
+  width: 35px;
+  margin-top: 18px;
+  vertical-align:top;
+  border-radius: 150px;
+  
+}
+
+.u-texts{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  width: 250px;
+  line-height: 23px;
+  margin-bottom: 5px;
+}
+.u-text{
+  font-size: 14px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: medium;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.u-view {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:small ;
+}
+.u-texts1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  width: 250px;
+  line-height: 23px;
+  margin-bottom: 5px;
+}
+.u-text1 {
+  font-size: 14px;
+  font-family:Verdana, Tahoma, sans-serif;
+  font-weight: medium;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.u-view1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:small ;
+}
+
+.text-pro {
+  display: inline-block;
+}
   .vid-preview {
     width: 300px;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-right: 15px;
+  }
+  .vid-prev {
+    width: 300px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-right: 15px;
   }
 
-  .u-texts{
-    font-size: 18px;
-    font-weight: bold;
-    width: 300px;
-    margin-bottom: 5px;
-  }
-  .u-text{
-    font-size: 16px;
-    font-family: georgia;
-    font-weight: medium;
-    width: 300px;
-    margin-bottom: 5px;
-  }
-
+  
