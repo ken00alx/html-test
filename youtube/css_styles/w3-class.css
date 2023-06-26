@@ -1,11 +1,64 @@
- body{
+/* Style the element with the id "myHeader" */
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 30px;
+  text-align: left;
+}
+* {
+  box-sizing: border-box;
+}
+
+body{
   font-size: 14px;
   background-color: rgb(228, 228, 228);
   color:black;
   font-family: Arial, Helvetica, sans-serif;
  }
+header{
+  background-color: #662;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: wheat;
+}
 
- 
+ul {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #329e28;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e6ff79;
+  color: brown;
+}
+
+.city {
+  background-color: tomato;
+  color: whitesmoke;
+  border: 2px dotted black;
+  margin:20px;
+  padding: 20px;
+}
+.note{
+  font-size: 120%;
+  color: red;
+}
  
  table {
     width: 380px;

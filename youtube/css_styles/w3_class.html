@@ -4,13 +4,22 @@
     <meta charset="utf=8">
     <meta name="author" content="kenny">
     <meta name="Description" content="Table test">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Format</title>
     <link rel="icon" href="ball.png">
     <link rel="stylesheet" href="w3-class.css">
 
   </head>
 <body>
-  <h1>Table Test Training</h1>
+  <script>
+    document.getElementById("image").src = "picture";
+  </script>
+  <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" title="Mountain"> 
+
+
+
+ <div> <h1 id="myHeader">Table Test Training</h1> <h2 id="myHeader"><a href="#C4">Chapter 4</a></h2></div>
   <table class="table">
     <tr>
       <th>Company</th>
@@ -54,8 +63,38 @@
 
 
   </table>
-</p>
 
+  <!--Adding Java Script-->
+ 
+  
+  <script>
+  function displayResult() {
+    document.getElementById("myHeader").innerHTML = "Have a nice day!";
+  }
+  </script>
+
+  <h1 id="myHeader">Hello World!</h1>
+  <button onclick="displayResult()">Change text</button>
+
+</p>
+<iframe src="https:grid.html" name="iframe_grid" width="350" height="200" borde="none" title="Ifrane Example"></iframe>
+<p>
+  <a href="#grid.html" target="iframe_grid">grid</a>
+</p>
+<p>
+<!--Java Script-->
+<h1>My First JavaScript</h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<h2>Use JaveScript to change Text</h2>
+<p>This example writes "Hello JavaScript! into an HTML element with id="demo:</p>
+<script>
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+</p>
+<div>
 Calender Table
 
 <table>
@@ -136,21 +175,24 @@ Calender Table
 
 
 </table>
+</div>
+<p>
+<div>
 
-<ul style="list-style-type: disc;">
+<ul style="list-style-type:disc;">
   <dl> Define Order</dl>
   <dl> Define Wages</dl>
   <dl> Define Purchase</dl>
   <dl> Define package</dl>
 </ul></p>
 <ul><p>
-  <dt> Define Order</dt>
+  <dt> Define Starts</dt>
   <dt> Define Wages</dt>
-  <dd> Define Purchase</dd>
-  <dd> Define package</dd>
+  <dt> Define Price</dt>
+  <dt> Define Loading</dt>
 </ul></p>
 <p>
-<ol start="50">
+<ol>
   <dl> Define Order</dl>
   <dl> Define Wages</dl>
   <dl> Define Purchase</dl>
@@ -158,37 +200,28 @@ Calender Table
 </ul></p>
 <p>
 <ol type="I">
-  <dl> Define Order</dl>
+  <dd> Define Order</dd>
   <dl> Define Wages</dl>
   <dl> Define Purchase</dl>
   <dl> Define package</dl>
 </ul></p>
+</div>
 
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #329e28;
-}
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+<div class="city">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+<div class="city">
+  <h2>Tokoyo</h2>
+  <p>Tokoyo is the capital of Japan.</p>
+</div>
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #8fd88f;
-}
-</style>
+<h2>My <span class="note">Important </span>Heading</h2>
+<p>This is some <span class="note">important </span>text.</p>
 
 <div style="background-color: indigo;
 color:white;
@@ -197,12 +230,13 @@ padding: 10px;">
 <p>
   London is the capital city of England. It is the most populous city in the United Kingdom. with a metropolitan area of over 13 million inhabitants
 </p>
-
-
 </div>
 
+<p>
+  My mother has <span style="color: blueviolet; font-weight:bold;">blue</span> eyes and my father has <span style="color: darkolivegreen; font-weight:bold;">dark green</span> eyes.
+</p>
 
-
+<hr>
 <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
