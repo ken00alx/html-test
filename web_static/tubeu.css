@@ -1,0 +1,61 @@
+.title-video{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 16px;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 20;
+  }
+
+  .video-author{
+    font-size: 18px;
+    font-family: Arial;
+    margin-top: 10px;
+  }
+
+  .video-stats{
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: rgb(20, 20, 20);
+  } 
+
+  .video-description{
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    width: 280px;
+    line-height: 22px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+.
+
+/* .search{
+  font-size: 20px;
+  margin-left: 12px;
+  display:block;
+  } */
+  .search{
+    background-color: rgb(184, 5, 5);
+    color: white;
+    width: 60px;
+    border-radius: 20px;
+    border-color: blueviolet;
+  }
+
+  .thumbnail{
+    width: 300px;
+    object-fit: cover;
+    object-position: left;
+    border-width: 2px;
+    border-color: rgb(23, 44, 2);
+    border-style: solid;
+    display: inline-block;
+  }
+
+  .div-class{
+   width: 300px;
+  }
