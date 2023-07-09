@@ -1,61 +1,89 @@
-.title-video{
-  font-family: arial;
-  font-weight: bold;
-  font-size: 16px;
+.thumbnail{
+  display: inline-block;
   width: 300px;
-  line-height: 24px;
-  margin-bottom: 20;
+  height: 180px;
+  object-fit: contain;
+  object-position: top;
+  vertical-align: top;
+  margin-top: 0px;
+  }
+.thumbs{
+  display: block;
+  width: 300px;
+  height: 180px;
+  object-fit:fill;
+  object-position: top;
+  
   }
 
-  .video-author{
-    font-size: 18px;
-    font-family: Arial;
-    margin-top: 10px;
-  }
-
-  .video-stats{
-    font-family: arial;
-    font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    color: rgb(20, 20, 20);
-  } 
-
-  .video-description{
-    font-family: arial;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    width: 280px;
-    line-height: 22px;
-    margin-top: 0px;
-    margin-bottom: 100px;
-  }
-
-.
-
-/* .search{
-  font-size: 20px;
-  margin-left: 12px;
-  display:block;
-  } */
-  .search{
-    background-color: rgb(184, 5, 5);
-    color: white;
-    width: 60px;
-    border-radius: 20px;
-    border-color: blueviolet;
-  }
-
-  .thumbnail{
-    width: 300px;
-    object-fit: cover;
-    object-position: left;
-    border-width: 2px;
-    border-color: rgb(23, 44, 2);
-    border-style: solid;
+  .ser-content{
+    font-size: 20px;
+    margin-left: 0px;
+    height: 30px;
     display: inline-block;
   }
 
+  .search-button{
+    background-color: red;
+    width: 82px;
+    height: 30px;
+    border-radius: 5px;
+  
+  }
+
+  .profile-pics{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 150px;
+    margin-left: 1px;
+    
+  }
+
+  .title-video{
+    width: 250px;
+    font-size: 18px;
+    font-family: Arial;
+    margin-left: 0px;
+    font-weight: bold;
+
+  }
+  
+
+  .video-author{
+    font-family: Arial;
+    font-size: 15px;
+  }
+  .video-stats{
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 12px;
+    padding-bottom: 15px;
+  }
+
+  .video-info{
+    display: inline-block;
+    margin-left: 0px;
+ 
+  }
+
+  .video-info-grid{
+    margin-left:01px;
+    margin-right: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    column-gap: 1px;
+    row-gap: 4px;
+  }
+  .chan-pics{
+    vertical-align:top;
+
+  }
+
+  
+
   .div-class{
-   width: 300px;
+    display: block;
+    margin-right: 1px;
+    padding-left: 0px;
   }
