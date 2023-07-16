@@ -5,14 +5,28 @@
     height: 100px;
     width: 100%;
     shape-image-threshold: initial;
-    align-items: center;
+    align-items: right;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
+    display: block;
+    margin-right: 1850px;
+
 }
-colgroup{
-    color: rgb(23, 94, 94);
+.leg{
+    font-weight: bold;
+    font-family:  arial;
+    font-size: 18px;
+    color: rgb(4, 105, 105);
+    text-decoration: underline;
+
 }
+
+.info-cv{
+    font-size: 16px;
+    font-family: Arial;
+
+    color: rgb(0, 0, 0);
+}
+
 .logo-container {
     font-size: 18px;
     margin-left: 0px;
@@ -22,7 +36,6 @@ colgroup{
 }
 
 .logo {
-    font-weight: bold;
     margin-right: 1850px;
 }
 
