@@ -1,16 +1,23 @@
 .u-body {
-  background-color: rgb(217, 224, 223);
-}
+  background-color: rgb(243, 228, 209);
+ }
 
 
 .search-bar{
   
   margin-left: 1px;
-  display: block;
+  display: inline-block;
   margin-bottom: 7px;
+
+}
+
+.button{
+  background-color: rgb(170, 20, 20);
+  color: aliceblue;
+  display:inline-block ;
 }
 .img{
-  width: 300px;
+  width: 100%;
   display: inline-block;
   vertical-align: bottom;
   }
@@ -19,44 +26,57 @@
   height: 180px;
   display: inline-block;
   vertical-align: bottom;
+  column-gap: 5px;
+  
   }
   
 .channel-pic {
-  width: 50px;
+  width: 5px;
   display:inline-block;
-  vertical-align: top;
+  vertical-align: top; 
   }
 .chan-pic {
   width: 50px;
   display:inline-block;
   vertical-align: top;
+  
   }
 
 .pro-info {
-  width: 200px;
-  display: inline-block;
+  display: block;
+
 }
 .pro-inf {
-  width: 200px;
+  width: 100px;
+  height: 200px;
   display: inline-block;
+  border-radius: 300px;
 }
 .ball {
-  width: 35px;
+  width: 30px;
   margin-top: 18px;
   vertical-align:top;
-  border-radius: 150px;
+  border-radius: 300px;
+}
 
   .video-info-grid {
     display: grid;
-    grid-template-columns: 50px 1fr;
-    column-gap: 15px;
+    grid-template-columns: 30px 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 20px;
+  }
+
+  .video-grid{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2px;
+    row-gap: 10px;
   }
   
-}
 
 .u-texts{
   font-family:Arial;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   width: 250px;
   line-height: 23px;
@@ -66,13 +86,14 @@
   font-size: 14px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: medium;
-  width: 300px;
+  width: 200px;
   margin-bottom: 5px;
 }
 
 .u-view {
   font-family: Arial, Helvetica, sans-serif;
   font-size:small ;
+  width: 100px;
 }
 .u-texts1{
   font-family:Arial, Helvetica, sans-serif;
@@ -90,9 +111,10 @@
   margin-bottom: 5px;
 }
 
-.u-view1 {
+.u-view {
+  width: 300px; ;
   font-family: Arial, Helvetica, sans-serif;
-  font-size:small ;
+  font-size: 12px; ;
 }
 
 .text-pro {
@@ -100,16 +122,15 @@
 }
   .vid-preview {
     width: 300px;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-right: 15px;
+    display: block;
+    margin-right: 5px;
   }
   .vid-prev {
     width: 300px;
     height: 180px;
     display: inline-block;
     vertical-align: baseline;
-    margin-right: 15px;
+    margin-right: 5px;
   }
 
   
